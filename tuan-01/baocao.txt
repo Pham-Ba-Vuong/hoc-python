@@ -1,5 +1,0 @@
-Báo cáo tuần 1
- git config --global user.email "vua75644@gmail.com"
-  git config --global user.name "Pham-Ba-Vuong"
-
-  thay ten github voi mail cuar em vao day ... okr 
