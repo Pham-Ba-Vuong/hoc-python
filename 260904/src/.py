@@ -6,7 +6,7 @@ class Points(object):
         self.y = y
         self.z = z
 
-
+    
     def __sub__(self, no):
         return Points(
             self.x - no.x,
@@ -14,11 +14,11 @@ class Points(object):
             self.z - no.z
         )
 
-
+    
     def dot(self, no):
         return self.x * no.x + self.y * no.y + self.z * no.z
 
-    # Tích có hướng (Cross product): self x no
+    
     def cross(self, no):
         return Points(
             self.y * no.z - self.z * no.y,
@@ -26,6 +26,7 @@ class Points(object):
             self.x * no.y - self.y * no.x
         )
         
+    
     def absolute(self):
         return math.sqrt(self.x**2 + self.y**2 + self.z**2)
 
@@ -37,7 +38,7 @@ if __name__ == '__main__':
 
     a, b, c, d = points[0], points[1], points[2], points[3]
 
-    
+
     ab = b - a
     bc = c - b
     cd = d - c
@@ -46,7 +47,6 @@ if __name__ == '__main__':
     x = ab.cross(bc)
     y = bc.cross(cd)
 
-    
     cos_phi = x.dot(y) / (x.absolute() * y.absolute())
 
     angle = math.degrees(math.acos(cos_phi))

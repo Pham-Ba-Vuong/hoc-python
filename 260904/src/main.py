@@ -24,14 +24,14 @@ class Complex(object):
         return Complex(real_part, imag_part)
 
     def __truediv__(self, no):
-        # Mẫu số = c^2 + d^2
+        
         denominator = no.real**2 + no.imaginary**2
         real_part = (self.real * no.real + self.imaginary * no.imaginary) / denominator
         imag_part = (self.imaginary * no.real - self.real * no.imaginary) / denominator
         return Complex(real_part, imag_part)
 
     def mod(self):
-        # |a + bi| = sqrt(a^2 + b^2)
+        
         return Complex(math.sqrt(self.real**2 + self.imaginary**2), 0)
 
     def __str__(self):
