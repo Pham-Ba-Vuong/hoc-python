@@ -53,4 +53,4 @@ if __name__ == '__main__':
     d = map(float, input().split())
     x = Complex(*c)
     y = Complex(*d)
-    print(*map(str, [x+y, x-y, x*y, x/y, x.mod(), y.mod()]), sep='\n')
+    print(*map(str, [x+y, x-y,x*y, x/y, x.mod(), y.mod()]), sep='\n')
