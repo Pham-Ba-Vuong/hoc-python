@@ -38,7 +38,7 @@
 ### 2. Các kiến thức Python cơ bản đã tìm hiểu 
 #### 2.1  
 -list,dictionary,tuple,class
+-numpy: e mới học đến phần mảng: np.dot(),np.linalg.inv(),np.linalg.eig
 
-ví dụ code main.py nằm trong folder src 
-[src/main.py](src/main.py)
+
   
