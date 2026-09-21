@@ -19,7 +19,7 @@
         - Lưu commit thay đổi và push lên nhánh main 
         ```bash
             git add . 
-            git commit -m "ghi hchut commit " 
+            git commit -m "ghi hchut commit "
             git push origin main  
         ```
         - Kiểm tra trạng thái repo xem có những thay đổi gì chưa commit : 
